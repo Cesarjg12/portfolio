@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Include Bootstrap CSS link here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cesar Guerrero-Joseph</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro" data-target="#portfolioCarousel" data-slide-to="0">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-target="#portfolioCarousel" data-slide-to="1">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myapps" data-target="#portfolioCarousel" data-slide-to="2">My Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-target="#portfolioCarousel" data-slide-to="3">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="portfolioCarousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+            <!-- Intro Section -->
+            <div class="carousel-item active" id="intro">
+                <div class="slide">
+                    <div class="content">
+                        <h1>Greetings! My name is Cesar</h1> 
+                        <p>Take a dive into my Portfolio</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Me Section -->
+            <div class="carousel-item" id="about">
+                <div class="slide">
+                    <div class="content">
+                        <h1>About Me</h1>
+                        <p>I am a software engineer who likes to develop fun and unique apps.
+                            Im passionate in what I do and when I do it I give it my all. 
+                            I used to lean towards the medical field, but have since left that 
+                            behind to pursue the magics of coding. What makes me so passionate
+                            about coding is all the wonderful games and ideas you can create and bring to life.
+                            I want to share with other what I can create coding allows me to do this, so take the next step
+                            and continue down to my works. Relax with my app, The Cozy Fox Den or browse games with
+                            Brokeman's Game Station. I am open to connecting and combining or even bouncing ideas off each other!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Section -->
+            <div class="carousel-item" id="work">
+                <div class="slide">
+                    <div class="content">
+                        <h1>My Apps</h1>
+                        <div class="project">
+                            <h2><a href="https://thecozyfoxden-a2209a5d8c7d.herokuapp.com/" target="_blank">The Cozy Fox Den</a></h2>
+                            <img src="./public/TheCozyFoxDen.png" alt="The Cozy Fox Den">
+                            <p>An app that allows you to play Youtube videos using Youtube's iframe API with a focus on relaxing rejuvenation music.</p>
+                        </div>
+
+                        <div class="project">
+                            <h2><a href="https://brokemans-gamestation-903d50ec6ce7.herokuapp.com/" target="_blank">Brokeman's Game Station</a></h2>
+                            <img src="./public/BrokeMansgamestation.png" alt="Brokeman's Game Station">
+                            <p>A browser gaming hub that allows users to upload their unique games for universal access. It facilitates interactive community engagement with features like reviews and game ratings.</p>
+                        </div>
+
+                        <div class="project">
+                            <h2><a href="https://dailyjournal-6aaaa9a51646.herokuapp.com/" target="_blank">Daily Journal</a></h2>
+                            <img src="./public/DailyJournal.png" alt="Daily Journal">
+                            <p>Ever want to just jot down what you did today or ideas of what you wanna do? Well you can in three simple categories of Morning, Noon, and Evening.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="carousel-item" id="contact">
+                <div class="slide">
+                    <div class="content">
+                        <div class="card-box">
+                            <h1>Contact</h1>
+                            <ul class="contact-list">
+                                <li><a href="https://github.com/Cesarjg12" target="_blank">Github</a></li>
+                                <li><a href="https://www.linkedin.com/in/cesarguerrero-joseph/" target="_blank">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Include Bootstrap JavaScript and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

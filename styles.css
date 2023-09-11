@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    height: 10vmin; /* Navbar height with vmin units */
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vmin 0; /* Adjust top and bottom padding with vmin units */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #69c;
+}
+
+/* Slide section styles */
+.slide {
+    height: 100vmin; /* Slide height with vmin units */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+}
+
+.content {
+    max-width: 90vmin; /* Max width of content container with vmin units */
+    margin: 2vmin auto; /* Margin with vmin units */
+    background-color: #fff;
+    padding: 2vmin; /* Padding with vmin units */
+    border-radius: 2vmin; /* Border radius with vmin units */
+    box-shadow: 0px 0px 2vmin rgba(0, 0, 0, 0.2); /* Box shadow with vmin units */
+}
+
+/* Additional styles for contact list */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contact-list li {
+    margin-bottom: 1vmin; /* Adjust margin with vmin units */
+}
+
+.carousel-item h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3vmin; /* Font size with vmin units */
+}
+
+/* Additional styles for app images */
+.project img {
+    max-width: 35vmin; /* Max width of images with vmin units */
+    max-height: 25vmin; /* Max height of images with vmin units */
+    border: 1px solid #ddd;
+    border-radius: 2vmin; /* Border radius with vmin units */
+    margin-top: 2vmin; /* Margin with vmin units */
+}
+
+/* Adjust other elements with vmin units as needed */
+
